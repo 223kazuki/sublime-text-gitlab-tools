@@ -1,0 +1,26 @@
+[
+  {
+    "caption": "GitLab: Open File",
+    "command": "gitlab_open"
+  },
+  {
+    "caption": "GitLab: Blame",
+    "command": "gitlab_blame"
+  },
+  {
+    "caption": "GitLab: Copy Link To File",
+    "command": "gitlab_copy_link"
+  },
+  {
+    "caption": "GitLab: Repository",
+    "command": "gitlab_repository"
+  },
+  {
+    "caption": "GitLab: Issues",
+    "command": "gitlab_issues"
+  },
+  {
+    "caption": "GitLab: File History",
+    "command": "gitlab_file_history"
+  }
+]
