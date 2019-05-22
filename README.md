@@ -2,7 +2,7 @@
 
 ## Introduction ##
 
-A port of temochka's [Github Tools](github.com/temochka/sublime-text-2-github-tools) plugin to GitLab.
+A port of temochka's [Github Tools](https://github.com/temochka/sublime-text-2-github-tools) plugin to GitLab.
 
 ## Usage ##
 
