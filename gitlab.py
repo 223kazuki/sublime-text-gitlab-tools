@@ -47,8 +47,10 @@ class GitRepo(object):
             raise NotAGitRepositoryError("No repository at '%s'" % self.path)
 
         try:
+            branch = self.git('branch --show-current')
             # remote_alias = self.git('config branch.%s.remote' % self.branch)
-            remote_alias = self.git('config branch.master.remote')
+            remote_alias = self.git("config branch.{}.remote".format(branch))
+
         except GitCommandError:
             raise NoRemoteError(self.branch)
 
