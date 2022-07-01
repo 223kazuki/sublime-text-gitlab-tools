@@ -1,4 +1,4 @@
-# GitLab Tools for Sublime Text
+# GitLab Tools for Sublime Text #
 
 ## Introduction ##
 
@@ -22,7 +22,7 @@ Use `Cmd` instead of `Ctrl` on Mac OS X.
 ### On Mac ###
 
 ```bash
-cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/
+cd ~/Library/Application\ Support/Sublime\ Text/Packages/
 git clone git://gitlab.com/theoretick/sublime-text-gitlab-tools.git
 ```
 
