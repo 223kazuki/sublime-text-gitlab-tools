@@ -49,7 +49,11 @@ class GitRepo(object):
         try:
             branch = self.git('branch --show-current')
             # remote_alias = self.git('config branch.%s.remote' % self.branch)
+            print("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@")
+            print(branch)
+            print("config branch.{}.remote".format(branch))
             remote_alias = self.git("config branch.{}.remote".format(branch))
+            print(remote_alias)
 
         except GitCommandError:
             raise NoRemoteError(self.branch)
